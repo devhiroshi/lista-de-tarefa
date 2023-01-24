@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+/* MOBILE FIRST */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(88deg, #e66464ab, #9198e5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+    font-weight: normal;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.555);
+    letter-spacing: 2px;
+}
+
+h1:hover {
+    letter-spacing: 4px;
+    transition: all ease-in .9s;
+}
+
+input, button {
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-left: 8px;
+}
+
+input:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.555);
+}
+
+button {
+    cursor: pointer;
+    background-color: black;
+    color: azure;
+}
+
+button:hover {
+    background-color: azure;
+    color: black;
+}
+
+li {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    letter-spacing: 4px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.active {
+    color: darkred;
+    text-decoration: line-through;
+}
